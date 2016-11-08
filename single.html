@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+ <html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>History - FRSC - Nigeria</title>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0" /> 
+  <link rel="stylesheet" media="all" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header style="background-color:green">
+      <div class="logo"><a href="index.html"><img src="images/logo4.png" alt="KPIE Technologies - Designed a mobile App for FRSC - Nigeria [07035705023]"/></a></div>
+      <div class="options">
+      	<ul>
+      		<li>Search</li>
+      		<li>Menu</li>
+      	</ul>
+      </div>
+      <div class="clear"></div>
+	    <div class="search-box">
+	    	<form action="menu.html">
+	    		<input type="text" placeholder="Search info" />
+	    		<input type="submit" value="Go" />
+	    	</form>
+	    	<div class="clear"></div>
+	    </div>
+	    <nav class="vertical menu">
+	    	<ul>
+	            <li style="background-color:#339900"><span style="color:white">HOME</span></li>
+				<li align="left"><a href="menu.html">Home Screen</a></li>
+				<li align="left"><a href="news.html">News &amp; Information Updates</a></li>
+				
+	            <li style="background-color:green"><span style="color:white">WORKSPACE</span></li>
+	            <li align="left"><a href="new.html">Forum</a></li>
+				<li align="left"><a href="new.html">Drop Point</a></li>
+				<li style="background-color:green"><span style="color:white">PARTICULARS</span></li>
+				<li align="left"><a href="new.html">Private</a></li>
+				<li align="left"><a href="new.html">Commercial</a></li>
+				<li style="background-color:green"><span style="color:white">COMMAND</span></li>
+				<li align="left"><a href="new.html">Abuja</a></li>
+				<li align="left"><a href="new.html">Lagos</a></li>
+				<li align="left"><a href="new.html">Benin</a></li>
+				<li align="left"><a href="new.html">Kaduna</a></li>
+				<li align="left"><a href="new.html">Enugu</a></li>
+				<li style="background-color:green"><span style="color:white">OFFENCES &amp; PENALTIES</span></li>
+				<li align="left"><a href="roadsigns.html">Road Signs &amp; Safety</a></li>
+				<li align="left"><a href="new.html">Payment</a></li>
+				<li style="background-color:green"><span style="color:white">REPORT INCIDENT</span></li>
+				<li align="left"><a href="new.html">Via Phone</a></li>
+				<li align="left"><a href="new.html">Upload Media</a></li>
+				<li style="background-color:green"><span style="color:white">CONTACT US</span></li>
+				<li align="left"><a href="new.html">Management Team</a></li>
+				<li align="left"><a href="new.html">Commands in North</a></li>
+				<li align="left"><a href="new.html">Commands in South</a></li>
+				<li style="background-color:green"><span style="color:white">ABOUT US</span></li>
+				<li align="left"><a href="single.html">History</a></li>
+				<li align="left"><a href="basic_markup.html">What We Do</a></li>
+				<li align="left"><a href="missionrlaccordion.html">Mission &amp; Vision</a></li>
+        	</ul>
+	    </nav>
+    </header>
+    
+        
+    <div class="content">
+    	<article>
+				
+				<h2 class="underline">History</h2>
+				<p>
+					In February 1988, the Federal Government created the Federal Road Safety Commission through Decree No. 45 of the 1988 as amended by Decree 35 of 1992 referred to in the statute books as the FRSC Act cap 141 Laws of the Federation of Nigeria (LFN). Passed by the National Assembly as Federal Road Safety Commission (establishment) Act 2007. The functions of the Commission generally relates to: Making the highway safe for motorists and other road users. Recommending works and devices designed to eliminate or minimize accidents on the highways and advising the Federal and State Governments including the Federal Capital Territory Administration and relevant governmental agencies on the localities where such works and devices are required, and Educating motorists and members of the public on the importance of discipline on the highway. In particular the Commission is charged with the responsibilities for: Preventing or minimizing accidents on the highway; Clearing obstructions on any part of the highways; Educating drivers, motorists  and other members of the public
+				</p>
+	
+		</article>
+    </div>
+    <footer>
+    	<p>&copy; FRSC 2016. This is Just a <a href="#">Demo Project</a></p>
+    </footer>
+  </div>
+ 
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+   window.addEventListener("load",function() {
+	  // Set a timeout...
+	  setTimeout(function(){
+	    // Hide the address bar!
+	    window.scrollTo(0, 1);
+	  }, 0);
+	});
+   $('.search-box,.menu' ).hide();   
+   $('.options li:first-child').click(function(){	
+   		$(this).toggleClass('active'); 	
+   		$('.search-box').toggle();        			
+   		$('.menu').hide();  		
+   		$('.options li:last-child').removeClass('active'); 
+   });
+   $('.options li:last-child').click(function(){
+   		$(this).toggleClass('active');      			
+   		$('.menu').toggle();  		
+   		$('.search-box').hide(); 
+   		$('.options li:first-child').removeClass('active'); 		
+   });
+   $('.content').click(function(){
+   		$('.search-box,.menu' ).hide();   
+   		$('.options li:last-child, .options li:first-child').removeClass('active');
+   });
+</script>
+</body>
+<!--
+ *	Author: Mobifreaks
+ * 	Author URL: http://mobifreaks.com
+ *	License: Creative Commons Attribution 3.0 Unported
+ * 	License URl: http://creativecommons.org/licenses/by/3.0/
+ * 	Attribution: <a href="http://mobifreaks.com/free-mobile-website-templates/galaxy-mobi/" title="Design By Mobifreaks.com">Design by Mobifreaks.com</a> or <a href="http://mobifreaks.com" title="Design By Mobifreaks.com">Design By Mobifreaks.com</a> 
+ -->
+</html>
